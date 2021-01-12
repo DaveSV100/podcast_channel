@@ -1,0 +1,2 @@
+website url: https://davesv100.github.io/podcast_channel/
+repository url: https://github.com/DaveSV100/podcast_channel.git
