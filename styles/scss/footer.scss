@@ -1,0 +1,23 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8vh 8vh;
+    grid-template-areas: "footer-text"
+                        "footer-icons";
+    .footer-text {
+      grid-area: footer-text;
+      p {
+        font-family: 'IBMPlexMono', sans-serif;
+        font-size: .9rem;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+        text-align: center;
+      }
+    }
+    .footer-icons {
+        grid-area: footer-icons;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
